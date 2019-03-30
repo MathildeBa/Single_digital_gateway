@@ -21,7 +21,7 @@ window.onload = () => {
   //     console.log(target.innerText);
   //   }
   // }
-
+  //
   // document.addEventListener('mouseover',targetDiv);
   // document.addEventListener('mouseout',untargetDiv);
   // document.addEventListener('click',clickTargetDiv);
