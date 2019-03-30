@@ -63,8 +63,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #003399;
     position: fixed;
-    top: 50%;
-    right: 1%;
+    top: 49%;
+    right: 0;
 }
 
 /*------------NavBar du postit-------------*/
@@ -164,6 +164,7 @@ body {
 
 #responseP {
     padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 

@@ -22,13 +22,14 @@ window.onload = () => {
   //   }
   // }
 
-  document.addEventListener('mouseover',targetDiv);
-  document.addEventListener('mouseout',untargetDiv);
-  document.addEventListener('click',clickTargetDiv);
+  // document.addEventListener('mouseover',targetDiv);
+  // document.addEventListener('mouseout',untargetDiv);
+  // document.addEventListener('click',clickTargetDiv);
 
   document.querySelector("#tool").addEventListener("click", ()=>{
     document.querySelector("#postIt").style.display = "block";
     document.querySelector("#tool").style.backgroundImage="url('assets/images/tools/btn_while_write.png')";
+    document.querySelector("#help").style.display = "none";
 
     document.querySelector("#closed").addEventListener("click", ()=>{
       document.querySelector("#postIt").style.display = "none";
