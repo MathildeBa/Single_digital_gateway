@@ -2,28 +2,39 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-X: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
 #body1 {
     background-image: url('../images/background_site/ScreenShot_1.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 #body2 {
     background-image: url('../images/background_site/ScreenShot_2.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 #body3 {
     background-image: url('../images/background_site/ScreenShot_3.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 #body4 {
     background-image: url('../images/background_site/ScreenShot_4.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 #body5 {
     background-image: url('../images/background_site/ScreenShot_5.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
@@ -33,6 +44,14 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 48px;
+    position: fixed;
+    top: 50%;
+    right: -10.5%;
+
+}
+
+#tool:hover {
+    right: 0;
 }
 
 /*--------------- Le Post It ----------------------*/
@@ -42,6 +61,9 @@
     height: 323px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #003399;
+    position: fixed;
+    top: 50%;
+    right: 1%;
 }
 
 /*------------NavBar du postit-------------*/
@@ -147,20 +169,30 @@
 /*----------------- Compteur -----------------*/
 
 #counter {
-    border: 1px solid #003399;
+    /* border: 1px solid #003399; */
+    background-color: #003399;
     width: 80px;
     height: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+    
+    /* justify-content: space-around;
+    align-content: center; */
     border-radius: 3px;
+    padding: 0;
 }
 #counterIcon {
-    border-right: 1px solid #003399;
+    display: inline-block;
     width: 34%;
+    height: 100%;
     background-image: url('../images/tools/flag_little.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 1% 52%;
+}
+
+#nbrCounter {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.475);
+    width: 50%;
+    height: 100%;
 }
 
