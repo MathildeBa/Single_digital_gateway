@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #body1{
     background-image: url('../images/background_site/ScreenShot_1.png');
     width: 100vw;
@@ -38,21 +42,28 @@
 }
 
 #postItTitle ul {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
     list-style-type: none;
     padding-top: 20px;
     padding-left: 10px ;
+    margin: 0;
     width: 100%;
 }
 #postItTitle li {
-    display: inline-block;
     margin: 1px;
-    padding: 5px;
-    border: 1px solid #003399;
     text-align: center;
 }
 #helpTitle, #problemTitle {
     width: 98px;
+    padding: 5px;
+    border: 1px solid #003399;
 }
 #closed {
-    width: 12px;
+    background: url('../images/tools/btn_close.png') no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 25px;
 }
