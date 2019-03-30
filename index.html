@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -12,16 +13,18 @@
     <div id="body2"></div>
     <div id="body3"></div>
     <div id="body5"></div>
-    <div id="tool">Tool</div>
+    <div id="tool"></div>
     <div id="counter">
         <div id="counterIcon">little Flag</div>
         <div id="nbrCounter"></div>
     </div>
-    <div id="postIt"> I'm The Post It
+    <div id="postIt">
         <div id="postItTitle">
-            <div id="helpTitle">Help</div>
-            <div id="problemTitle">Problem</div>
-            <div id="closed"> X </div>
+            <ul>
+                <li id="problemTitle" class="title">Feedback ?</li>
+                <li id="helpTitle" class="title">Help ?</li>
+                <li id="closed" class="title"></li>
+            </ul>
         </div>
         <div id="postItContent">
             <div id="help">
@@ -33,7 +36,7 @@
                     My problem is with : 
                     <input type="radio" name="plateform" class="radio">this plateform<br>
                     <input type="radio" name="singleMarket" class="radio">the EU single market<br>
-                    <textarea id="text" rows="4" cols="50">
+                    <textarea id="text" rows="4" cols="30">
                         Describe your problem :
                     </textarea>
                     <button id="flag">FLag</button>
@@ -42,7 +45,7 @@
             </div>
         </div>
     </div>
-
+    <div id="response">Your request has been taken !</div>
 
 
 
