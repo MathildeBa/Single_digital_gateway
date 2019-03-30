@@ -92,19 +92,21 @@
 #buttons {
     display: flex;
     justify-content: space-between;
-    width: 260px;
+    width: 271px;
     height: 25px;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 #flag {
     background: url('../images/tools/btn_locate.png') no-repeat;
     background-size: cover;
-    width: 93px;
+    width: 161px;
+    height: 29px;
 }
 
 #send {
     background: url('../images/tools/btn_send.png') no-repeat;
     background-size: cover;
-    width: 93px;
+    width: 100px;
+    height: 30px;
 }
