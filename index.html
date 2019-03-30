@@ -33,16 +33,20 @@
         <div id="postItContent">
             <div id="help">
                 <p>Need some help ?</p>
-                <button type="button">Go to the assistance</button>
+                <button type="button" id="helpButton"></button>
             </div>
             <div id="problem">
                 <form action="" id="probForm">
-                    My problem is with :
-                    <input type="radio" name="typeProblem" class="radio">this plateform<br>
-                    <input type="radio" name="typeProblem" class="radio">the EU single market<br>
-                    <textarea id="text" rows="4" cols="50">Describe your problem :</textarea>
-                    <button id="flag">FLag</button>
-                    <button id="send">Send</button>
+                    <div id="radio">
+                        My problem is with :<br />
+                        <input type="radio" name="typeProblem" class="radio">this plateform<br>
+                        <input type="radio" name="typeProblem" class="radio">the EU single market<br>
+                    </div>
+                    <textarea id="text">Please describe your problem :</textarea>
+                    <div id="buttons">
+                        <button id="flag"></but>
+                        <button id="send"></button>
+                    </div>
                 </form>
             </div>
         </div>
