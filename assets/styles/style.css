@@ -30,6 +30,7 @@
 /*---------------------- Notre outil --------------------*/
 #tool {
     background-image: url('../images/tools/btn_feedback.png');
+    background-repeat: no-repeat;
     width: 200px;
     height: 48px;
 }
@@ -76,5 +77,34 @@
     background-color: #EDEA8C;
 }
 #radio {
+    margin:  19px 19px 0 19px;
+    line-height: 25px;
+}
 
+#text {
+    margin:  10px 19px 10px 19px;
+    width: 73%; 
+    height: 78px;
+    background-color: rgba(245, 245, 241, 0.468);
+    font-size: 14px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+#flag {
+    background: url('../images/tools/btn_locate.png') no-repeat;
+    background-size: cover;
+    width: 93px;
+}
+
+#send {
+    background: url('../images/tools/btn_send.png') no-repeat;
+    background-size: cover;
+    width: 93px;
 }
