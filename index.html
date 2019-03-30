@@ -14,12 +14,8 @@
     <div id="body3"></div>
     <div id="body5"></div>
     <div id="tool"></div>
-    <div id="counter">
-        <div id="counterIcon">little Flag</div>
-        <div id="nbrCounter"></div>
-    </div>
     <div id="postIt">
-        <div id="postItTitle">
+    	<div id="postItTitle">
             <ul>
                 <li id="problemTitle" class="title">Feedback ?</li>
                 <li id="helpTitle" class="title">Help ?</li>
@@ -33,19 +29,25 @@
             </div>
             <div id="problem">
                 <form action="" id="probForm">
-                    My problem is with : 
-                    <input type="radio" name="plateform" class="radio">this plateform<br>
-                    <input type="radio" name="singleMarket" class="radio">the EU single market<br>
-                    <textarea id="text" rows="4" cols="30">
-                        Describe your problem :
-                    </textarea>
-                    <button id="flag">FLag</button>
-                    <button id="send">Send</button>
+                    <div id="radio">
+                        My problem is with :<br />
+                        <input type="radio" name="typeProblem" class="radio">this plateform<br>
+                        <input type="radio" name="typeProblem" class="radio">the EU single market<br>
+                    </div>
+                    <textarea id="text">Please describe your problem :</textarea>
+                    <div id="buttons">
+                        <button id="flag"></but>
+                        <button id="send"></button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
     <div id="response">Your request has been taken !</div>
+    <div id="counter">
+	<div id="counterIcon">little Flag</div>
+	<div id="nbrCounter"></div>
+    </div>
 
 
 
