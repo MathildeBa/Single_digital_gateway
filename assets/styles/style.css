@@ -23,6 +23,7 @@
     width: 100vw;
     height: 100vh;
 }
+<<<<<<< HEAD
 /*---------------------- Notre outil --------------------*/
 #tool{
     background-image: url('../images/tools/btn_feedback.png');
@@ -56,3 +57,9 @@
 #closed {
     width: 12px;
 }
+=======
+
+#tool{
+    background-image: url('./images/tools/btn_feedback.png')
+}
+>>>>>>> c4818bda245cb4dd6a9da55c0a3ca5980c286826
