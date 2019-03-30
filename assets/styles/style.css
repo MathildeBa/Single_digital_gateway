@@ -57,6 +57,7 @@ body {
 /*--------------- Le Post It ----------------------*/
 #postIt {
     background: url('../images/tools/postIt_yellow.png');
+    background-size: cover;
     width: 340px;
     height: 323px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -93,7 +94,7 @@ body {
     background-size: cover;
     width: 28px;
     height: 28px;
-    margin-left: 9px; 
+    margin-left: 9px;
 }
 #helpTitle {
     background-color: #B3DEE5
