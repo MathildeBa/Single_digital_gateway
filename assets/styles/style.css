@@ -166,3 +166,32 @@
     height: 50%;
 }
 
+@media only screen and (max-width: 320px) {
+    #tool {
+        top: 90%;
+        right: 2%;
+        width: 15.5%;
+    }
+    #response {
+        display: none;
+        top: 78%;
+        right: 11%;
+        width: 80vw;
+    }
+    #counter {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 0;
+        position: fixed;
+        top: 88%;
+        right: 12%;
+    }
+    #counterIcon {
+        display: none;
+    }
+    
+    #nbrCounter {
+
+    }
+}
