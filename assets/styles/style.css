@@ -35,6 +35,7 @@
     height: 48px;
 }
 
+/*--------------- Le Post It ----------------------*/
 #postIt {
     background: url('../images/tools/postIt_yellow.png');
     width: 340px;
@@ -132,3 +133,34 @@
     height: 46px;
     margin-top: 18px;
 }
+
+#response {
+    background-color: rgba(237, 234, 140, 0.345);
+    width: 
+}
+
+#responseP {
+    padding: 10px;
+}
+
+
+/*----------------- Compteur -----------------*/
+
+#counter {
+    border: 1px solid #003399;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 3px;
+}
+#counterIcon {
+    border-right: 1px solid #003399;
+    width: 34%;
+    background-image: url('../images/tools/flag_little.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 1% 52%;
+}
+
