@@ -39,6 +39,7 @@
     width: 340px;
     height: 323px;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #003399;
 }
 
 #postItTitle ul {
@@ -47,23 +48,30 @@
     flex-direction: row;
     align-items: center;
     list-style-type: none;
-    padding-top: 20px;
-    padding-left: 10px ;
+    padding-top: 13px;
+    padding-left: 16px ;
     margin: 0;
     width: 100%;
 }
 #postItTitle li {
-    margin: 1px;
+    /* margin: 1px; */
     text-align: center;
+    border-radius: 3px;
 }
 #helpTitle, #problemTitle {
-    width: 98px;
-    padding: 5px;
-    border: 1px solid #003399;
+    width: 110px;
+    padding: 5.5px;
 }
 #closed {
     background: url('../images/tools/btn_close.png') no-repeat;
-    background-size: contain;
-    width: 20px;
-    height: 25px;
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    margin-left: 9px; 
+}
+#helpTitle {
+    background-color: #B3DEE5
+}
+#problemTitle {
+    background-color: #EDEA8C;
 }
