@@ -1,32 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-#body1 {
-    background-image: url('../images/background_site/ScreenShot_1.png');
-    width: 100vw;
-    height: 100vh;
-}
-#body2 {
-    background-image: url('../images/background_site/ScreenShot_2.png');
-    width: 100vw;
-    height: 100vh;
-}
-#body3 {
-    background-image: url('../images/background_site/ScreenShot_3.png');
-    width: 100vw;
-    height: 100vh;
-}
-#body4 {
-    background-image: url('../images/background_site/ScreenShot_4.png');
-    width: 100vw;
-    height: 100vh;
-}
-#body5 {
-    background-image: url('../images/background_site/ScreenShot_5.png');
-    width: 100vw;
-    height: 100vh;
-}
 /*---------------------- Notre outil --------------------*/
 #tool {
     background-image: url('../images/tools/btn_feedback.png');
@@ -88,7 +59,7 @@
 
 #text {
     margin:  10px 19px 10px 19px;
-    width: 73%; 
+    width: 73%;
     height: 78px;
     background-color: rgba(245, 245, 241, 0.468);
     font-size: 14px;
