@@ -10,7 +10,7 @@ window.onload = () => {
     document.querySelector("#help").style.display = "none";
     document.querySelector("#helpTitle").addEventListener("click", ()=>{
       document.querySelector("#problem").style.display = "none";
-      document.querySelector("#help").style.display = "block";
+      document.querySelector("#help").style.display = "flex";
     });
     document.querySelector("#problemTitle").addEventListener("click", ()=>{
       document.querySelector("#help").style.display = "none";
