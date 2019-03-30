@@ -1,5 +1,5 @@
 window.onload = () => {
-  document.querySelector("#postIt").style.display = "none";
+  // document.querySelector("#postIt").style.display = "none";
 
   document.querySelector("#tool").addEventListener("click", ()=>{
     document.querySelector("#postIt").style.display = "block";
