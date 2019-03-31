@@ -1,18 +1,31 @@
-/*---------------------- Notre outil --------------------*/
+
 #tool {
     background-image: url('../images/tools/btn_feedback.png');
     background-repeat: no-repeat;
     width: 200px;
     height: 48px;
+    position: fixed;
+    top: 50%;
+    right: -10.5%;
+
 }
 
+#tool:hover {
+    right: 0;
+    transition: 0.5s;
+}
+
+/*--------------- Le Post It ----------------------*/
 #postIt {
     background: url('../images/tools/postIt_yellow.png');
     background-size: cover;
     width: 340px;
-    height: 323px;
+    height: 360px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #003399;
+    position: fixed;
+    top: 49%;
+    right: 1.5%;
 }
 
 /*------------NavBar du postit-------------*/
@@ -34,7 +47,7 @@
     border-radius: 3px;
 }
 #helpTitle, #problemTitle {
-    width: 110px;
+    width: 115px;
     padding: 5.5px;
 }
 #closed {
@@ -52,14 +65,16 @@
 }
 
 /*------------post it feddback--------------*/
+
 #radio {
     margin:  19px 19px 0 19px;
+    padding-left: 4px;
     line-height: 25px;
 }
 
 #text {
     margin:  10px 19px 10px 19px;
-    width: 73%;
+    width: 73%; 
     height: 78px;
     background-color: rgba(245, 245, 241, 0.468);
     font-size: 14px;
@@ -70,7 +85,7 @@
     justify-content: space-between;
     width: 271px;
     height: 25px;
-    margin-left: 6px;
+    margin-left: 18px;
 }
 
 #flag {
@@ -103,4 +118,84 @@
     width: 188px;
     height: 46px;
     margin-top: 18px;
+}
+
+#response {
+    background-color: rgb(237, 234, 140);
+    width: 20%;
+    border-radius: 18px 18px 0 18px;
+    position: fixed;
+    top: 40%;
+    right: 2.5%;
+    box-shadow: 10px 10px 20px rgb(74, 73, 73);
+}
+
+#responseP {
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*----------------- Compteur -----------------*/
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    background-color: #003399;
+    width: 50px;
+    height: 90px;
+    border-radius: 3px;
+    padding: 0;
+    position: fixed;
+    top: 60%;
+    right: 0;
+}
+#counterIcon {
+    width: 100%;
+    height: 50%;
+    background-image: url('../images/tools/flag_little.png');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 60% 52%;
+}
+
+#nbrCounter {
+    background-color: rgba(255, 255, 255, 0.673);
+    color: #003399;
+    width: 100%;
+    height: 50%;
+}
+
+@media only screen and (max-width: 320px) {
+    #tool {
+        top: 90%;
+        right: 2%;
+        width: 15.5%;
+    }
+
+    #response {
+        display: none;
+        top: 78%;
+        right: 11%;
+        width: 80vw;
+    }
+
+    #counter {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 0;
+        position: fixed;
+        top: 88%;
+        right: 12%;
+    }
+
+    #counterIcon {
+        display: none;
+    }
+    
+    #nbrCounter {
+        background-color: rgba(255, 255, 255, 0.673);
+        color: #003399;
+    }
 }
