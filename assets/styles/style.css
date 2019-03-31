@@ -96,7 +96,7 @@ body {
 
 #text {
     margin:  10px 19px 10px 19px;
-    width: 73%; 
+    width: 73%;
     height: 78px;
     background-color: rgba(245, 245, 241, 0.468);
     font-size: 14px;
@@ -157,6 +157,10 @@ body {
 #responseP {
     padding: 15px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.highlight-wrap{
+  box-sizing: border-box;
 }
 
 
@@ -292,11 +296,10 @@ body {
     #counterIcon {
         display: none;
     }
-    
+
     #nbrCounter {
         background-color: rgba(255, 255, 255, 0.673);
         color: #003399;
         height: 30px;
     }
 }
-
