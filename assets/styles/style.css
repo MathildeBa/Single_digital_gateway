@@ -1,3 +1,6 @@
+body {
+    max-width: 1500px;
+}
 
 #tool {
     background-image: url('../images/tools/btn_feedback.png');
@@ -7,7 +10,7 @@
     position: fixed;
     top: 50%;
     right: -10.5%;
-
+    z-index: 1;
 }
 
 #tool:hover {
@@ -26,6 +29,7 @@
     position: fixed;
     top: 49%;
     right: 1.5%;
+    z-index: 2;
 }
 
 /*------------NavBar du postit-------------*/
@@ -121,13 +125,15 @@
 }
 
 #response {
+    display: none;
     background-color: rgb(237, 234, 140);
     width: 20%;
     border-radius: 18px 18px 0 18px;
     position: fixed;
-    top: 40%;
+    top: 44%;
     right: 2.5%;
     box-shadow: 10px 10px 20px rgb(74, 73, 73);
+    z-index: 2;
 }
 
 #responseP {
@@ -149,6 +155,7 @@
     position: fixed;
     top: 60%;
     right: 0;
+    z-index: 1;
 }
 #counterIcon {
     width: 100%;
@@ -166,11 +173,54 @@
     height: 50%;
 }
 
-@media only screen and (max-width: 320px) {
+#feedbackPage {
+    display: flex;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #tool {
+        top: 70%;
+        right: -9%;
+        width: 15.5%;
+    }
+
+    #postIt {
+        width: 340px;
+        height: 360px;
+        position: fixed;
+        top: 64%;
+        right: 1.5%;
+    }
+
+    #counter {
+        top: 75%;
+        right: 0;
+    }
+
+    #response {
+        top: 65%;
+        right: 5%;
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
     #tool {
         top: 90%;
         right: 2%;
         width: 15.5%;
+    }
+
+    #postIt {
+        width: 340px;
+        height: 360px;
+        position: fixed;
+        top: 71%;
+        right: -5.5%;
     }
 
     #response {
@@ -186,7 +236,7 @@
         border-radius: 50%;
         padding: 0;
         position: fixed;
-        top: 88%;
+        top: 89%;
         right: 12%;
     }
 
@@ -197,5 +247,7 @@
     #nbrCounter {
         background-color: rgba(255, 255, 255, 0.673);
         color: #003399;
+        height: 30px;
     }
 }
+
