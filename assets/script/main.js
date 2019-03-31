@@ -1,5 +1,6 @@
 window.onload = () => {
   document.querySelector("#postIt").style.display = "none";
+  document.querySelector("#response").style.display = "none";
 
   // const targetDiv = (e)=>{
   //   let target=e.target;
@@ -50,6 +51,20 @@ window.onload = () => {
       document.querySelector("#problem").style.display = "block";
       document.querySelector("#postIt").style.backgroundImage="url('assets/images/tools/postIt_yellow.png')";
     });
+
+    document.querySelector("#send").addEventListener("click", ()=>{
+      if ((document.getElementsByName("typeProblem").value!="plateform") || (document.getElementsByName("typeProblem").value!="ESM") || (document.querySelector("#text").value=="")){
+        console.log(document.getElementsByName("typeProblem").value);
+        console.log(document.querySelector("#text").value);
+        document.querySelector("#response").style.display = "block";
+        document.querySelector("#response").innerText="Please, fill all the fields !";
+        setTimeout ( ()=> {
+          document.querySelector("#response").style.display = "none";
+        }, 3000)
+      }
+    });
   });
+
+  // document.querySelector('#probForm').button
 
 }
