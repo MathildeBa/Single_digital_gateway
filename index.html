@@ -1234,13 +1234,13 @@
                 <form action="" id="probForm">
                     <div id="radio">
                         My problem is with :<br />
-                        <input type="radio" name="typeProblem" class="radio">  this plateform<br>
-                        <input type="radio" name="typeProblem" class="radio">  the EU single market<br>
+                        <input type="radio" name="typeProblem" class="radio" id="plateform">  this plateform<br>
+                        <input type="radio" name="typeProblem" class="radio" id="SME">  the EU single market<br>
                     </div>
                     <textarea id="text" placeholder="Please describe your problem :"></textarea>
                     <div id="buttons">
-                        <button id="flag"></but>
-                        <button id="send"></button>
+                        <button type="button" id="flag"></button>
+                        <button type="button" id="send"></button>
                     </div>
                 </form>
             </div>
@@ -1248,8 +1248,6 @@
     </div>
     <div id="response" class="speech-bubble">
         <p id="responseP">
-            Thank you.<br />
-            We take your request into account.
         </p>
     </div>
     <div id="counter">

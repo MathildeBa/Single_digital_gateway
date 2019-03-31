@@ -38,6 +38,9 @@ window.onload = () => {
       document.querySelector("#problem").style.display = "block";
       document.querySelector("#postIt").style.backgroundImage="url('assets/images/tools/postIt_yellow.png')";
       document.querySelector("#tool").style.backgroundImage="url('assets/images/tools/btn_feedback.png')";
+      document.querySelector("#text").value="";
+      document.querySelector("#SME").checked=false;
+      document.querySelector("#plateform").checked=false;
     });
 
     document.querySelector("#helpTitle").addEventListener("click", ()=>{
@@ -53,11 +56,24 @@ window.onload = () => {
     });
 
     document.querySelector("#send").addEventListener("click", ()=>{
-      if ((document.getElementsByName("typeProblem").value!="plateform") || (document.getElementsByName("typeProblem").value!="ESM") || (document.querySelector("#text").value=="")){
-        console.log(document.getElementsByName("typeProblem").value);
-        console.log(document.querySelector("#text").value);
+      if ((!(document.querySelector("#SME").checked) && !(document.querySelector("#plateform").checked)) || (document.querySelector("#text").value=="")){
         document.querySelector("#response").style.display = "block";
-        document.querySelector("#response").innerText="Please, fill all the fields !";
+        document.querySelector("#responseP").innerText="Please, fill all the fields !";
+        setTimeout ( ()=> {
+          document.querySelector("#response").style.display = "none";
+        }, 3000)
+      }
+      else{
+        document.querySelector("#response").style.display = "block";
+        document.querySelector("#responseP").innerText="Your feedback has been taken in consideration. Thank you !";
+        document.querySelector("#postIt").style.display = "none";
+        document.querySelector("#tool").style.backgroundImage="url('assets/images/tools/btn_feedback.png')";
+        document.querySelector("#text").value="";
+        document.querySelector("#SME").checked=false;
+        document.querySelector("#plateform").checked=false;
+        let flagCounter=0;
+        flagCounter+=1;
+        document.querySelector("#nbrCounter").innerText=flagCounter;
         setTimeout ( ()=> {
           document.querySelector("#response").style.display = "none";
         }, 3000)
