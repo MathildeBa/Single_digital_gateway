@@ -1,8 +1,8 @@
 window.onload = () => {
   document.querySelector("#postIt").style.display = "none";
   document.querySelector("#response").style.display = "none";
+  // document.querySelector('#littleFlag').style.display= "none";
   let flagCounter=0;
-  let plusOne=1;
 
   // const targetDiv = (e)=>{
   //   let target=e.target;
@@ -95,7 +95,7 @@ window.onload = () => {
         document.querySelector("#postIt").style.display = "none";
         document.querySelector("#tool").style.backgroundImage="url('assets/images/tools/btn_feedback.png')";
         console.log('Coucou');
-        flagCounter=1;
+        flagCounter+=1;
         document.querySelector("#nbrCounter").innerText=flagCounter;
         setTimeout ( ()=> {
           document.querySelector("#response").style.display = "none";
@@ -116,7 +116,7 @@ window.onload = () => {
       let started = false;
       let excludeList = ['#tool', '#postIt', '#postItTitle', '#title', '#closed', '#postItContent', '#help', '#helpTitle', '#helpButton', '#problem', '#problemTitle', '#probForm', '#radio', '#plateform', '#SME','#text', '#buttons', '#flag', '#send', '#response', '#responseP', '#counter', '#counterIcon', '#nbrCounter'];
       activeFlag(active, started, excludeList);
-      document.querySelector("#flag").style.display="none";
+      document.querySelector("#flag").style.display="none";$
     });
   });
 
@@ -190,6 +190,9 @@ function activeFlag(active, started, excludeList){
         let targetDiv = document.getElementsByClassName('highlight-wrap')[0];
         resizeMask(target);
         targetDiv.style.border = '5px dashed #003399';
+        document.querySelector('#littleFlag').style.position= "absolute";
+        document.querySelector('#littleFlag').style.top=(window.scrollY+rect.top)+"px";
+        document.querySelector('#littleFlag').style.left=rect.left+"px";
         console.log(target);
       }
     }
