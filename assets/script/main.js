@@ -97,7 +97,7 @@ window.onload = () => {
         }, 3000)
       }
     });
-    
+
     console.log(flagCounter);
     document.querySelector("#text").value="";
     document.querySelector("#SME").checked=false;
@@ -184,8 +184,8 @@ function activeFlag(active, started, excludeList){
         resizeMask(target);
         targetDiv.style.border = '5px dashed #003399';
         document.querySelector('#littleFlag').style.position= "absolute";
-        document.querySelector('#littleFlag').style.top=(window.scrollY+rect.top)+"px";
-        document.querySelector('#littleFlag').style.left=rect.left+"px";
+        document.querySelector('#littleFlag').style.top=(window.scrollY+target.getBoundingClientRect().top)+"px";
+        document.querySelector('#littleFlag').style.left=(target.getBoundingClientRect().left)-25 +"px";
         console.log(target);
       }
     }
