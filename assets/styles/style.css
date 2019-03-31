@@ -172,12 +172,14 @@
         right: 2%;
         width: 15.5%;
     }
+
     #response {
         display: none;
         top: 78%;
         right: 11%;
         width: 80vw;
     }
+
     #counter {
         width: 30px;
         height: 30px;
@@ -187,11 +189,13 @@
         top: 88%;
         right: 12%;
     }
+
     #counterIcon {
         display: none;
     }
     
     #nbrCounter {
-
+        background-color: rgba(255, 255, 255, 0.673);
+        color: #003399;
     }
 }
