@@ -2,6 +2,24 @@ body {
     max-width: 1500px;
 }
 
+/*---------- bouton navBar -------------*/
+#talk{
+    width: 4000px;
+}
+
+#talkTo {
+    /* display: flex; */
+    background-color: #c5332a;
+    width: 200px;
+    height: 50px;
+    margin-top: -31px;
+    margin-left: 504px;
+    padding: 18px;
+    float: right;
+    z-index: 1;
+
+}
+
 #tool {
     background-image: url('../images/tools/btn_feedback.png');
     background-repeat: no-repeat;
@@ -173,12 +191,25 @@ body {
     height: 50%;
 }
 
+/*--------------- Feedback page ------------------*/
+
 #feedbackPage {
     display: flex;
     width: 100%;
 }
 
+#feedbackIcon {
+    width: 70%;
+}
 
+.fas, .fa-smile-beam, .fa-frown {
+    color: #EDEA8C; 
+    text-align: right;
+    float: right;
+    font-size: 40px;
+    margin: 10px;
+    text-shadow: -2px 2px #003399, 2px -2px #003399, 2px 2px #003399, -2px -2px #003399;
+}
 
 @media only screen and (max-width: 768px) {
     #tool {
