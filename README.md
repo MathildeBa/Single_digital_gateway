@@ -33,8 +33,8 @@ We use Github Projects for versioning. For the versions available, see the tags
 
 | Mathilde Baquet | Frederic Binon |Andres Goldestein | Emilie Bialais |
 | :---: | :---: | :---: | :---: |
-| ![Mathilde](https://avatars0.githubusercontent.com/u/46483828?s=400&v=4)| ![Frederic](https://avatars1.githubusercontent.com/u/35797164?s=400&v=4) | ![Andres](https://avatars1.githubusercontent.com/u/46483156?s=400&v=4)| ![Emilie](https://avatars2.githubusercontent.com/u/46483146?s=200&v=4)|
-| <a href="https://github.com/MathildeBa" target="_blank">`github.com/MathildeBa`</a> | <a href="https://github.com/FredericBinon" target="_blank">`github.com/FredericBinon`</a> | <a href="https://github.com/AndresGol" target="_blank">`github.com/AndresGol`</a> || <a href="https://github.com/Ebialais" target="_blank">`github.com/Ebialais`</a> | 
+| ![Mathilde](https://avatars0.githubusercontent.com/u/46483828?s=400&v=4)| ![Frederic](https://avatars1.githubusercontent.com/u/35797164?s=400&v=4) | ![Andres](https://avatars1.githubusercontent.com/u/46483156?s=400&v=4)| ![Emilie](https://avatars3.githubusercontent.com/u/46483146?s=460&v=4)|
+| <a href="https://github.com/MathildeBa" target="_blank">`github.com/MathildeBa`</a> | <a href="https://github.com/FredericBinon" target="_blank">`github.com/FredericBinon`</a> | <a href="https://github.com/AndresGol" target="_blank">`github.com/AndresGol`</a> | <a href="https://github.com/Ebialais" target="_blank">`github.com/Ebialais`</a> | 
 
 ---
 
