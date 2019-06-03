@@ -15,7 +15,7 @@ Instructions can be find : https://europa.eu/newsroom/events/brussels-single-dig
 ![Write FeedBack View](assets/images/Screenshots/imacUE3.png)
 
 ## Built With
-Due to the sohort time, the project was buit with :
+Due to the short time, the project was buit with :
 - HTML
 - CSS
 - JavaScript
