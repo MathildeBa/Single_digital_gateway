@@ -1,5 +1,6 @@
 # Single_digital_gateway
 
+After 3 month of training at Becode, we participated in a hackathon.
 Work done within the hacakthon "Single Digital Gateway". The objective of the hackathon was to find and implement, in 24h, an innovative solution to allow users of the platform of the European Union to send back to the EU feedbacks regarding the use of the platform and the legislation.
 
 *Tags: Hackathon, team work, european union, feedback*
